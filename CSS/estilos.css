@@ -1,0 +1,502 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial;
+    
+}
+
+/*Estilos del contenedor principal*/
+
+.contenedor{
+    width: 100%;
+    background: rgb(214, 233, 225);
+}
+
+/*CONTENEDOR DE LA IMAGEN DE FONDO*/
+
+.contenedor_fondo{
+    width: 100%;
+    position: relative;
+}
+
+.contenedor_fondo img{
+    max-width: 100%;
+    filter: brightness(50%);
+    
+}
+
+/*CABEZERA*/
+
+.header{
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+}
+
+.header_title{
+    display: inline-block;
+    width: 50%;
+
+    text-align: center; 
+    margin-top: 35px;
+}
+
+.header_title a{
+    width: 50%;
+    color: white;
+    font-size: 35px;
+  
+  
+}
+
+.header_alan{
+    top:-15px;
+    position:relative;
+    
+}
+
+.header_links{
+    display: inline-block;
+    width: 49%;
+   
+}
+
+.header_links ul{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 30px;
+}
+
+.header_links .links a{
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/*EXPERIENCE OF YOGA*/
+
+.experience{
+    width: 100%;
+    background: rgb(235, 236, 242);
+}
+
+.experience_texto{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.experience_texto h2{
+    font-size: 40px;
+    color: rgb(245, 142, 160);
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
+
+.experience_colum{
+    width: 100%;
+    display: flex;
+}
+
+.column1{
+    width: 33%;
+
+    padding-left: 10%;
+}
+
+.column1_1{
+    width: 100%;
+}
+
+.column1_1 h3{
+    
+    padding-top: 10px;
+    color: rgb(94, 87, 87);
+}
+
+.column1_1 p{
+    font-size: 13px;
+    padding-top: 10px;
+    
+}
+
+.column1 img{
+    float: right;
+}
+
+.column2{
+    width: 33%;
+}
+
+.column2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+    margin-bottom: 25px;
+}
+
+.column3{
+    width: 33%;
+  padding-right: 10%;
+}
+
+.column3_3{
+    width: 100%;
+}
+
+.column3_3 h3{
+    color: rgb(94, 87, 87);
+    padding-top: 10px;
+}
+
+.column3_3 p{
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.column3 img{
+    float: right;
+}
+
+/*CHOOSE*/
+
+#parrafoRosa{
+    font-size: 40px;
+    color: rgb(245, 142, 160);
+}
+
+.choose{
+    width: 100%;
+    background: rgb(115,198,205);
+    display: flex;
+}
+
+.choose1{
+    width: 50%;
+    padding: 50px;
+    color: white;
+    font-size: 20px;
+    text-align: right;
+}
+
+.choose2{
+    width: 50%;
+    padding: 50px;
+    text-align: center;
+}
+
+.choose2 a{
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 3px solid white;
+    padding: 10px;
+}
+
+/*Galeria*/
+
+
+
+.refe{
+    width: 100%;
+    background-color:rgb(235, 236, 242);
+}
+
+.refe p{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+    color: black;
+}
+
+
+.refe span{
+    color: white;
+    font-size: 20px;
+}
+
+.conte{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.refe-img{
+    width: 300px;
+    margin: auto;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.refe-img p{
+    font-size: 20px;
+    color: rgb(97, 94, 94);
+}
+
+.refe-img p span{
+   
+    font-size: 15px;
+    color: rgb(110, 107, 107);
+    
+}
+
+#img{
+    width: 100%;
+}
+
+/*Rosa*/
+
+.rosa{
+    width: 100%;
+    text-align: center;
+    background: rgb(226, 147, 160);
+}
+
+.rosa p{
+    padding-top: 100px;
+    color: white;
+    font-size: 17px;
+    line-height: 30px;
+    
+}
+
+/*MARYSHELDON*/
+
+
+.azul{
+    width: 100%;
+    background: rgb(98, 174, 214);
+}
+
+.tarjeta{
+    width: 100%;
+    display: flex;
+
+    background: rgb(98, 174, 214);
+}
+
+.tarjetatexto{
+    width: 30%;margin-top: 30px;
+    color:white;padding-bottom: 30px;
+}
+
+.tarjetaimg{
+    width: 30%;
+    margin-top: 30px;padding-bottom: 30px;
+}
+
+.tarjetaimg img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+
+.tarjetalorem{
+    margin-top: 30px;
+    width: 39%;color:white;
+    padding-bottom: 30px;
+}
+
+.centerbody{
+    width: 100%;
+    display: flex;
+}
+
+.imagen3{
+    width: 50%;
+    text-align: center;
+}
+
+.imagen3 img{
+    max-width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.centerbody2{
+    width: 49%;
+    text-align: right;
+    margin-top: 50px;
+}
+
+.centerbody2 p{
+    color: pink;
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 100px;
+    padding-top: 50px;
+}
+
+#idnu{
+    color: blue;
+    font-size: 20px;
+}
+
+#idnu2{
+    color: gray;
+    font-size: 15px;
+}
+
+.cualidades{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    background: rgb(231, 180, 108);
+    color: white;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.ancho{
+    width: 20%;
+}
+
+
+/*YOGASHOP*/
+
+.yogashop{
+    width: 100%;
+}
+
+.yogatext{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+
+}
+
+.yogaflex{
+    width: 100%;
+    display: flex;
+    
+}
+
+.hijofelxyoga img{
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hijofelxyoga p{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.botn{
+    width: 100%;
+    text-align: center;padding-top: 50px;
+}
+
+.botn a{
+    position: relative;
+   padding: 10px;
+   color: black;
+   border-radius: 10px;
+    border: 2px solid white;
+    top: -30px;
+}
+
+
+.thresection{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    background: rgb(115,198,205);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.three{
+    width: 33%;
+    color: white;
+}
+
+.three a{
+    position: relative;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid white;
+    color: white;
+    bottom: -10px;
+}
+
+
+/*UPCOMINGS EVENTS*/
+
+
+
+.upcomingevents{
+    width: 100%;
+}
+
+.upcomingtext{
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.upcmoingfelx{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.itemuocomig{
+    width: 50%;
+    padding-bottom: 40px;
+}
+
+
+/*Color celeste*/
+
+.colorceleste{
+    width: 100%;
+    text-align: center;
+    background: rgb(115,198,205);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+/*Final*/
+
+.final{
+    width: 100%;
+    background: rgb(62, 48, 57);
+}
+
+.final_1{
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    font-size: 30px;
+}
+
+.FINAL_2{
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.FINAL_3{
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
